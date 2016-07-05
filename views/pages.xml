@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+        <record id="test_page_link" model="website.menu">
+          <field name="name">Index</field>
+          <field name="url">/my_chart</field>
+          <field name="parent_id" ref="website.main_menu" />
+          <field name="sequence" type="int">99</field>
+        </record>
+
+        <record id="test2_page_link" model="website.menu">
+          <field name="name">Test</field>
+          <field name="url">/test</field>
+          <field name="parent_id" ref="website.main_menu" />
+          <field name="sequence" type="int">99</field>
+        </record>
+    </data>
+</openerp>
