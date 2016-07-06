@@ -137,7 +137,7 @@
                   t-att-data-view-xmlid="xmlid if editable else None"
                   t-att-data-main-object="repr(main_object) if editable else None"
                   t-att-data-oe-company-name="res_company.name">
-            </html>
+
 
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -151,8 +151,7 @@
                 <t t-call-assets="website_trad.mystyle" t-js="false"/>
             </head>
 
-            <body>
-                <div class="nav-md">
+            <body class="nav-md">
                     <div class="container body">
                         <div class="main_container">
                             <div class="col-md-3 left_col">
@@ -445,9 +444,7 @@
                                 <div class="nav_menu">
                                     <nav>
                                         <div class="nav toggle">
-                                            <a id="menu_toggle">
-                                                <i class="fa fa-bars"></i>
-                                            </a>
+                                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
                                         </div>
 
                                         <ul class="nav navbar-nav navbar-right">
@@ -783,8 +780,6 @@
                             <!-- /footer content -->
                         </div>
                     </div>
-                </div>
-
 
                 <t t-call-assets="website_trad.mystyle" t-css="false"/>
                 <!-- validator -->
@@ -819,7 +814,7 @@
                 </script>
                 <!-- /validator -->
             </body>
-
+            </html>
         </template>
 
         <template id="test" name="Services page" page="True">
